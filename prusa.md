@@ -12,9 +12,9 @@
 
 ## ファン
 
-- 元々 mk3 は Noctua 製ファンが使われてるが、去年 Noctua ファン供給が不安定になったので Delta 製に変えた。Delta ファンの回転速度が高いので PWM でファンの速度を落とす(自動)。Prusa の定番改造は Noctua ファンから Sunon ファンに変える、このファンは PWM 対応しないので PWM 制御によって寿命が短くなる。コミュニティと喧嘩した結果、ファンの速度選択設定が隠しメニューに追加された　
-  参考 : Sunon ファンデータシート　https://www.tme.eu/Document/3cb1207277218a2fbbe696db35c9eace/A1259XBL-TC%28A25000350G-00%29-0.pdf
-  Prusa pull request : https://github.com/prusa3d/Prusa-Firmware/pull/2692
+- 元々 mk3 は Noctua 製ファンが使われてるが、去年 Noctua ファン供給が不安定になったので Delta 製に変えた。Delta ファンの回転速度が高いので PWM でファンの速度を落とす(自動)。Prusa の定番改造は Noctua ファンから Sunon ファンに変える、このファンは PWM 対応しないので PWM 制御によって寿命が短くなる。コミュニティと喧嘩した結果、ファンの速度選択設定が隠しメニューに追加された
+  - 参考 : Sunon ファンデータシート　https://www.tme.eu/Document/3cb1207277218a2fbbe696db35c9eace/A1259XBL-TC%28A25000350G-00%29-0.pdf
+  - Prusa pull request : https://github.com/prusa3d/Prusa-Firmware/pull/2692
 
 ## キャリブレーション
 
@@ -33,7 +33,7 @@
 ## これからは Prusa MINI の話です
 
 - Prusa mini の X と Y シャフトの長さは 279mm,Z シャフトは 341mm。この変な長さを使う理由は何？
-- 元々、Extruder の e-step 設定は EEPROM に保存された。その後、この機能は削除された。Bontech 製 Extruder に変えた人はカスタマイズ Gcode で設定するしかない。参考:https://github.com/prusa3d/Prusa-Firmware-Buddy/issues/364
+- 元々、Extruder の e-step 設定は EEPROM に保存された。その後、この機能は削除された。Bondtech 製 Extruder に変えた人はカスタマイズ Gcode で設定するしかない。参考:https://github.com/prusa3d/Prusa-Firmware-Buddy/issues/364
 
 ## まとめ
 
